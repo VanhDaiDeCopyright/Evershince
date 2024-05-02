@@ -459,14 +459,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                       data-bind="value: review().detail"></textarea></div></div><div class="field review-field-nickname required"><div class="control"><input type="text" name="nickname" id="nickname_field" class="input-text" data-validate="{required:true}" data-bind="value: nickname()" placeholder="Họ và tên (bắt buộc)" value="" /></div></div><div class="field-group"><div class="field review-field-telephone required"><div class="control"><input type="number" name="title" id="review-telephone" class="input-text" placeholder="Số điện thoại (bắt buộc)" data-validate="{required:true, 'validate-phone':true}" data-bind="value: review().title" value="" /></div></div><div class="field review-field-email"><div class="control"><input type="email" name="email" id="email_field" class="input-text" placeholder="Email" value=""/></div></div></div><div class="review-field-radio"><div class="control"><input type="radio" value="1" id="checkedRadio" ><label for="checkedRadio">Tôi sẽ giới thiệu sản phẩm này cho bạn bè người thân</label></div><div id="validate-review-radio"></div></div></fieldset><div class="actions-toolbar review-form-actions"><div class="primary actions-primary"><button type="submit" class="action submit primary"><span>Gửi đánh giá</span></button></div></div><input type="hidden" name="color" id="review-color" value=""/><input type="hidden" name="size" id="review-size" value=""/></form></div></div><form class="review-form" method="post" id="review-form-message" data-role="product-review-form-message" data-bind="scope: 'review-form-message'" style="display: none"><fieldset class="fieldset review-fieldset" data-hasrequired="&#x2A;&#x20;B&#x1EAF;t&#x20;bu&#x1ED9;c"><legend class="legend review-legend"><span>Đánh giá</span></legend><div class="message-wrapper"><span class="otp-result-message" id="review-result-message"></span></div></fieldset></form> 
                                       <div class="product-custom-review-header">
                                     <div class="block review-list" id="customer-reviews">
-                                        <img alt="main product photo" src="products/gallery-portriat-01/Image_1.jpg" data-amsrc="products/gallery-portriat-01/Image_1.jpg" width="350"
+                                        <style>
+                                            #contents {
+                                                width: 400px;
+                                                margin: 0px auto;
+                                            }
+                                            .text-centery {
+                                                text-align: center;
+                                            }
+                                        </style>
+                                        <div class="text-centery">
+                                        <img src="products/gallery-portriat-01/Image_1.jpg" width="350"
                                             />
-                                        <img alt="main product photo" src="products/gallery-portriat-01/Image_2.jpg" data-amsrc="products/gallery-portriat-01/Image_2.jpg" width="350"
+                                        <img src="products/gallery-portriat-01/Image_2.jpg" width="350"
                                             />
-                                        <img alt="main product photo" src="products/gallery-portriat-01/Image_3.jpg" data-amsrc="products/gallery-portriat-01/Image_3.jpg" width="350"
+                                        <img src="products/gallery-portriat-01/Image_3.jpg" width="350"
                                             />
-                                        <img alt="main product photo" src="products/gallery-portriat-01/Image_4.jpg" data-amsrc="products/gallery-portriat-01/Image_4.jpg" width="350"
+                                        <img src="products/gallery-portriat-01/Image_4.jpg" width="350"
                                             /></div>
+                                        </div>
                                     </div>
                                         <style> .review-container { display: inline-block; width: 100%; }
                                         </style>
